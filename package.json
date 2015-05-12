@@ -1,0 +1,20 @@
+{
+    "author": {
+        "name": "Gump Yang",
+        "email": "yangchengwork@gmail.com"
+    },
+    "name": "read_rssi",
+    "description": "use noble read BLE rssi",
+    "version": "0.0.1",
+    "main": "./read_rssi",
+    "engines": {
+        "node": ">=0.8"
+    },
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "dependencies": {
+        "noble": ">=0.3.9"
+    }
+}
